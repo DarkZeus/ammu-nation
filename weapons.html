@@ -9,41 +9,91 @@
 <body>
   <div id="jumbotron">
     <ul class="header-menu">
-      <li><a href="/">Главная</a></li>
-      <li><a href="/contacts.html">Контакты</a></li>
+      <li><a href="/ammu-nation/">Главная</a></li>
+      <li><a href="/ammu-nation/contacts.html">Контакты</a></li>
+      <li><a href="/ammu-nation/weapons.html">Ассортимент</a></li>
     </ul>
     <div class="logo">
-      <a href="/"><img src="assets/img/logo.svg" alt=""></a>
+      <a href="/"><img src="assets/img/logo.svg" alt="Bob Fisher's Ammu-Nation Store!"></a>
     </div>
   </div>
   <div id="content">
     <h2 class="range">Ассортимент</h2>
-    <ul class="goods">
-      <li>
-        <div class="goods-img"><img src="assets/img/weapons/bag.png" alt=""></div>
-        <div class="goods-description">
-          <div class="goods-name">Сумка</div>
-          <div class="goods-price"><span class="dashed">$39,000</span><span class="real">$29,000</span></div>
-          <div class="goods-bottom">
-            <span class="goods-category">
-              <img src="assets/img/cat-icon.png" alt="">
-              Другое
-            </span>
+    <div id="tab-container">
+      <ul class="tabs">
+        <li><a href="#firearms">Огнестрельное оружие</a></li>
+        <li><a href="#steelarms">Холодное оружие</a></li>
+        <li><a href="#other">Другое</a></li>
+        <li><a href="#ammo">Аммуниция</a></li>
+      </ul>
+      <div id="firearms">
+        <div class="table firearms">
+          <div class="row head">
+            <div class="column name">Наименование</div>
+            <div class="column price">Цена</div>
           </div>
         </div>
-      </li>
-    </ul>
+      </div>
+      <div id="steelarms">
+        <div class="table steelarms">
+          <div class="row head">
+            <div class="column name">Наименование</div>
+            <div class="column price">Цена</div>
+          </div>
+        </div>
+      </div>
+      <div id="other">
+        <div class="table other">
+          <div class="row head">
+            <div class="column name">Наименование</div>
+            <div class="column price">Цена</div>
+          </div>
+        </div>
+      </div>
+      <div id="ammo">
+        <div class="table ammo">
+          <div class="row head">
+            <div class="column name">Наименование</div>
+            <div class="column price">Стоимость патрона</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="footer">
     <ul class="footer-menu">
-      <li><a href="http://darkzeus.me/pdm/">Главная</a></li>
-      <li><a href="http://darkzeus.me/pdm/contacts.html">Контакты</a></li>
+      <li><a href="/ammu-nation/">Главная</a></li>
+      <li><a href="/ammu-nation/contacts.html">Контакты</a></li>
+      <li><a href="/ammu-nation/weapons.html">Ассортимент</a></li>
     </ul>
-    <p>© 2017 Premium Deluxe Motorsport. All rights reserved.</p>
+    <p>© 2018 Bob Fisher's Ammu-Nation. All rights reserved.</p>
     <p>Created in <a href="http://darkzeus.me/">darkzeus.me</a></p>
-    <img class="logo-mini" src="assets/img/logo-mini.png" alt="" id="up">
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="assets/js/app.js"></script>
+  <script>
+    $.getJSON("weapons.json", function(result){
+        for(var n in result) {
+          switch (result[n].type) {
+            case "firearms":
+              $('.firearms').append("<div class=\"row\"><div class=\"column name\">" + result[n].name + "</div><div class=\"column price\">" + result[n].price + "$</div></div>");
+              break;
+            case "melee":
+              $('.steelarms').append("<div class=\"row\"><div class=\"column name\">" + result[n].name + "</div><div class=\"column price\">" + result[n].price + "$</div></div>");
+              break;
+            case "other":
+              $('.other').append("<div class=\"row\"><div class=\"column name\">" + result[n].name + "</div><div class=\"column price\">" + result[n].price + "$</div></div>");
+              break;
+            case "ammo":
+              $('.ammo').append("<div class=\"row\"><div class=\"column name\">" + result[n].name + "</div><div class=\"column price\">" + result[n].price + "$</div></div>");
+              break;
+          }
+        }
+    });
+  </script>
+  <script src="assets/js/jquery.easytabs.min.js"></script>
+  <script>
+    $('#tab-container').easytabs();
+  </script>
 </body>
 </html>

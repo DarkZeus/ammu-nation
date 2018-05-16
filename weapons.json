@@ -1,0 +1,262 @@
+{
+  "1": {
+    "name": "Сумка",
+    "price": "250",
+    "type": "other"
+  },
+  "2": {
+    "name": "Бейсбольная бита",
+    "price": "160",
+    "type": "melee"
+  },
+  "3": {
+    "name": "Выкидной нож",
+    "price": "350",
+    "type": "melee"
+  },
+  "4": {
+    "name": "Тайзер",
+    "price": "500",
+    "type": "other"
+  },
+  "5": {
+    "name": "Beretta 9mm",
+    "price": "2200",
+    "type": "firearms"
+  },
+  "6": {
+    "name": "G36",
+    "price": "29000",
+    "type": "firearms"
+  },
+  "7": {
+    "name": "Фонарик",
+    "price": "450",
+    "type": "other"
+  },
+  "8": {
+    "name": "Снайперская винтовка",
+    "price": "33000",
+    "type": "firearms"
+  },
+  "9": {
+    "name": "Боевой нож",
+    "price": "1000",
+    "type": "melee"
+  },
+  "10": {
+    "name": "Боевой пистолет",
+    "price": "5000",
+    "type": "firearms"
+  },
+  "11": {
+    "name": "Мушкет",
+    "price": "2500",
+    "type": "firearms"
+  },
+  "12": {
+    "name": "MP5",
+    "price": "11000",
+    "type": "firearms"
+  },
+  "13": {
+    "name": "Tec-9",
+    "price": "8000",
+    "type": "weapon"
+  },
+  "14": {
+    "name": "Помповый дробовик",
+    "price": "11000",
+    "type": "firearms"
+  },
+  "15": {
+    "name": "АКСУ-74",
+    "price": "13000",
+    "type": "firearms"
+  },
+  "16": {
+    "name": "Винтажный пистолет",
+    "price": "5000",
+    "type": "firearms"
+  },
+  "17": {
+    "name": "АКМ",
+    "price": "30000",
+    "type": "firearms"
+  },
+  "18": {
+    "name": "Микро-УЗИ",
+    "price": "10000",
+    "type": "firearms"
+  },
+  "19": {
+    "name": "Обрез",
+    "price": "11000",
+    "type": "firearms"
+  },
+  "20": {
+    "name": "ПП-Скорпион",
+    "price": "9500",
+    "type": "firearms"
+  },
+  "21": {
+    "name": "TAR-21",
+    "price": "29000",
+    "type": "firearms"
+  },
+  "22": {
+    "name": "Автоматический дробовик",
+    "price": "29000",
+    "type": "firearms"
+  },
+  "23": {
+    "name": "Бесшумный ПП",
+    "price": "15000",
+    "type": "firearms"
+  },
+  "24": {
+    "name": "Glock G18 / Бронебойный пистолет",
+    "price": "7000",
+    "type": "firearms"
+  },
+  "25": {
+    "name": "M4 Carbine",
+    "price": "30000",
+    "type": "firearms"
+  },
+  "26": {
+    "name": "ПП Томпсона",
+    "price": "15000",
+    "type": "firearms"
+  },
+  "27": {
+    "name": "Desert Eagle / Пистолет кал.50",
+    "price": "5000",
+    "type": "firearms"
+  },
+  "28": {
+    "name": "Ручной пулемёт",
+    "price": "39000",
+    "type": "firearms"
+  },
+  "29": {
+    "name": "Тяжелый пистолет",
+    "price": "5000",
+    "type": "firearms"
+  },
+  "30": {
+    "name": "Тяжелый револьвер",
+    "price": "5000",
+    "type": "firearms"
+  },
+  "31": {
+    "name": "Укороченный дробовик",
+    "price": "15000",
+    "type": "firearms"
+  },
+  "32": {
+    "name": "Штурмовой ПП",
+    "price": "14000",
+    "type": "firearms"
+  },
+  "33": {
+    "name": "РПГ",
+    "price": "60000",
+    "type": "firearms"
+  },
+  "34": {
+    "name": "Мачете",
+    "price": "1200",
+    "type": "melee"
+  },
+  "35": {
+    "name": "Карманный пистолет",
+    "price": "1500",
+    "type": "firearms"
+  },
+  "36": {
+    "name": "Удочка",
+    "price": "200",
+    "type": "other"
+  },
+  "37": {
+    "name": "Топор",
+    "price": "400",
+    "type": "melee"
+  },
+  "38": {
+    "name": "Разводной ключ",
+    "price": "300",
+    "type": "other"
+  },
+  "39": {
+    "name": "Полицейская дубинка",
+    "price": "350",
+    "type": "other"
+  },
+  "40": {
+    "name": "Молоток",
+    "price": "250",
+    "type": "other"
+  },
+  "41": {
+    "name": "Ломик",
+    "price": "250",
+    "type": "other"
+  },
+  "42": {
+    "name": "Клюшка для гольфа",
+    "price": "400",
+    "type": "other"
+  },
+  "43": {
+    "name": "Кастет",
+    "price": "160",
+    "type": "melee"
+  },
+  "44": {
+    "name": "Бильярдный кий",
+    "price": "100",
+    "type": "other"
+  },
+  "45": {
+    "name": "Beretta 9mm",
+    "price": "12",
+    "type": "ammo"
+  },
+  "46": {
+    "name": "G36",
+    "price": "24",
+    "type": "ammo"
+  },
+  "47": {
+    "name": "Боевой пистолет",
+    "price": "13",
+    "type": "ammo"
+  },
+  "48": {
+    "name": "Снайперская винтовка",
+    "price": "30",
+    "type": "ammo"
+  },
+  "49": {
+    "name": "MP5",
+    "price": "24",
+    "type": "ammo"
+  },
+  "50": {
+    "name": "Помповый дробовик",
+    "price": "31",
+    "type": "ammo"
+  },
+  "51": {
+    "name": "Glock G18 / Бронебойный пистолет",
+    "price": "13",
+    "type": "ammo"
+  },
+  "52": {
+    "name": "М4 Carbine",
+    "price": "24",
+    "type": "ammo"
+  }
+}

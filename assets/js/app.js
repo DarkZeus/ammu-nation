@@ -13,28 +13,31 @@ function getRandomInt(min, max) {
 $('.game-render').attr('src', "assets/img/render/"+ getRandomInt(1,5) +".png");
 })(jQuery);
 
-$(document).ready(function() {
-  function preloadImages(array) {
-      if (!preloadImages.list) {
-          preloadImages.list = [];
-      }
-      var list = preloadImages.list;
-      for (var i = 0; i < array.length; i++) {
-          var img = new Image();
-          img.onload = function() {
-              var index = list.indexOf(this);
-              if (index !== -1) {
-                  list.splice(index, 1);
-              }
-          }
-          list.push(img);
-          img.src = array[i];
-      }
-  }
-
-  preloadImages(["assets/img/render/1.png", "assets/img/render/2.png", "assets/img/render/3.png", "assets/img/render/4.png", "assets/img/render/5.png", "assets/img/jumbotron-bg.jpg", "assets/img/panorama.jpg"]);
-
-});
+function preloadImages(array) {
+    if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+    var list = preloadImages.list;
+    for (var i = 0; i < array.length; i++) {
+        var img = new Image();
+        img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = array[i];
+    }
+}
 $(window).on('load', function() {
   $('.loader-text').delay(350).fadeOut('slow');
 });
+
+Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
