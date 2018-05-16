@@ -160,101 +160,96 @@
     "type": "firearms"
   },
   "33": {
-    "name": "РПГ",
-    "price": "60000",
-    "type": "firearms"
-  },
-  "34": {
     "name": "Мачете",
     "price": "1200",
     "type": "melee"
   },
-  "35": {
+  "34": {
     "name": "Карманный пистолет",
     "price": "1500",
     "type": "firearms"
   },
-  "36": {
+  "35": {
     "name": "Удочка",
     "price": "200",
     "type": "other"
   },
-  "37": {
+  "36": {
     "name": "Топор",
     "price": "400",
     "type": "melee"
   },
-  "38": {
+  "37": {
     "name": "Разводной ключ",
     "price": "300",
     "type": "other"
   },
-  "39": {
+  "38": {
     "name": "Полицейская дубинка",
     "price": "350",
     "type": "other"
   },
-  "40": {
+  "39": {
     "name": "Молоток",
     "price": "250",
     "type": "other"
   },
-  "41": {
+  "40": {
     "name": "Ломик",
     "price": "250",
     "type": "other"
   },
-  "42": {
+  "41": {
     "name": "Клюшка для гольфа",
     "price": "400",
     "type": "other"
   },
-  "43": {
+  "42": {
     "name": "Кастет",
     "price": "160",
     "type": "melee"
   },
-  "44": {
+  "43": {
     "name": "Бильярдный кий",
     "price": "100",
     "type": "other"
   },
-  "45": {
+  "44": {
     "name": "Beretta 9mm",
     "price": "12",
     "type": "ammo"
   },
-  "46": {
+  "45": {
     "name": "G36",
     "price": "24",
     "type": "ammo"
   },
-  "47": {
+  "46": {
     "name": "Боевой пистолет",
     "price": "12",
     "type": "ammo"
   },
-  "48": {
+  "47": {
     "name": "Снайперская винтовка",
     "price": "30",
     "type": "ammo"
   },
-  "49": {
+  "48": {
     "name": "MP5",
     "price": "24",
     "type": "ammo"
   },
-  "50": {
+  "49": {
     "name": "Помповый дробовик",
     "price": "31",
     "type": "ammo"
   },
-  "51": {
+  "50": {
     "name": "Glock G18 / Бронебойный пистолет",
     "price": "12",
     "type": "ammo"
   },
-  "52": {
+  "51": {
     "name": "М4 Carbine",
     "price": "24",
     "type": "ammo"
